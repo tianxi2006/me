@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+.gallery { width:890px; height:282px; margin:0 auto; }
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:890px; height:280px; overflow:hidden; }
+p#controls { margin:0; padding:0; position:relative; }
+#prevBtn { display:block; margin:0; overflow:hidden; width:42px; height:42px; position:absolute; left:-55px; top:-180px; }
+#nextBtn { display:block; margin:0; overflow:hidden; width:42px; height:42px; position:absolute; left: 900px; top:-180px; }
+#prevBtn a { display:block; width:42px; height:42px; background:url(images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:42px; height:42px; background:url(images/r_arrow.gif) no-repeat 0 0; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="search">
+      <form id="form1" name="form1" method="post" action="">
+        <label>
+          <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+          <input name="b" type="image" src="images/search.gif" class="button" />
+        </label>
+      </form>
+    </div>
+    <div class="simple_text"><a href="#">Home</a> | <a href="#">Contact</a></div>
+    <div class="clr"></div>
+    <div class="logo"><a href="index.html"><img src="images/logo.gif" width="221" height="79" border="0" alt="logo" /></a></div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="services.html">ABOUT</a></li>
+        <li><a href="services.html"> SERVICES</a></li>
+        <li><a href="contact.html">CONTACTS</a></li>
+      </ul>
+    </div>
+    <div class="clr"></div>
+    <div class="header_text">
+      <div class="gallery">
+        <div id="slider">
+          <ul>
+            <li>
+              <div class="div"><img src="images/simple_img_1.jpg" alt="screen 1" width="421" height="205" border="0" class="screen"  />
+                <div class="left1">
+                  <h2>Creative Solutions<br />
+                    <span>to improve your</span><br />
+                    online business!</h2>
+                  <p class="ulli">Been the industry's standard dummy text ever since thes.</p>
+                  <p class="ulli">Simply dummy text orem Ipsum has  standard dummy ndustry's </p>
+                  <p class="ulli">Standard dummy text ever since thes.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="div"><img src="images/simple_img_2.jpg" alt="screen 1" width="421" height="205" border="0" class="screen"  />
+                <div class="left1">
+                  <h2>Creative Solutions<br />
+                    <span>to improve your</span><br />
+                    online business!</h2>
+                  <p class="ulli">Been the industry's standard dummy text ever since thes.</p>
+                  <p class="ulli">Simply dummy text orem Ipsum has  standard dummy ndustry's </p>
+                  <p class="ulli">Standard dummy text ever since thes.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="div"><img src="images/simple_img_3.jpg" alt="screen 1" width="421" height="205" border="0" class="screen"  />
+                <div class="left1">
+                  <h2>Creative Solutions<br />
+                    <span>to improve your</span><br />
+                    online business!</h2>
+                  <p class="ulli">Been the industry's standard dummy text ever since thes.</p>
+                  <p class="ulli">Simply dummy text orem Ipsum has  standard dummy ndustry's </p>
+                  <p class="ulli">Standard dummy text ever since thes.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="body_top">
+    <div class="body">
+      <div class="body_resize">
+        <div class="bglo">
+          <h3>Web Development</h3>
+          <img src="images/img_1.gif" alt="picture" width="65" height="65" />
+          <p><strong>Fusce vehicula dignissim ligula. </strong><br />
+            Vestibulum sit amet neque eu neque suscipit consequat quis vel risus. Vestibulum vehicula purus nec dui accumsan fermentum.</p>
+          <p><a href="#"><strong>read more »</strong></a></p>
+        </div>
+        <div class="bglo">
+          <h3>Company Services</h3>
+          <img src="images/img_2.gif" alt="picture" width="65" height="65" />
+          <ul>
+            <li><a href="#">Been the industry's standard dummy.</a></li>
+            <li><a href="#"> Simply dummy text orem.</a></li>
+            <li><a href="#"> Undustry's standard dummy text.</a></li>
+            <li><a href="#"> Been the industry's stan.</a></li>
+          </ul>
+          <p><a href="#"><strong>read more »</strong></a></p>
+        </div>
+        <div class="bglo">
+          <h3>What We Do?</h3>
+          <img src="images/img_3.gif" alt="picture" width="65" height="65" />
+          <p><strong>Why do we use it?</strong><br />
+            Lorem Ipsum is simply dummy text of the printing and typesetting industrys bee. Lorem Ipsum is simply dummy text of the printing and typesetting industryhas been. </p>
+          <p><a href="#"><strong>read more »</strong></a></p>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+      <div class="body_big">
+        <h2><span>Welcome to </span>our company</h2>
+        <p><span><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</strong></span></p>
+        <img src="images/img_4.gif" alt="picture" width="70" height="70" />
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<a href="#"> fugiat nulla pariatur.<br />
+          Excepteur sint occaecat </a>cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est Suspendisse adipiscing rhoncus massa, sit amet sollicitudin quam vulputate non. In non turpis nisl. Curabitur purus mi, pharetra vitae viverra et, mattis sit amet nunc. Quisque enim ipsum, convallis sit amet molestie in, placerat vel urna. Praesent congue auctor elit, nec pretium ipsum volutpat vitae. Vivamus eget ipsum sit amet ipsum tincidunt fermentum.</p>
+      </div>
+      <div class="body_small">
+        <h2><span>Get in</span> touch</h2>
+        <p>Feel free to contact me or please fill up below in the following details and I will be in touch shortly.<br />
+          Address: 1458 Sample Road, Greenvalley, 12</p>
+        <img src="images/twitter.gif" alt="picture" width="82" height="82" class="small" />
+        <p>Telephone: +123-1234-5678<br />
+          FAX: +458-4578<br />
+          Others: +301 - 0125 - 01258<br />
+          E-mail: <a href="#">mail@yoursitename.com</a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="FBG">
+    <div class="FBG_resize">
+      <div class="biig">
+        <h2>News &amp; Events</h2>
+        <img src="images/img_5.gif" alt="picture" width="59" height="59" />
+        <p><strong>5th / April / 2009</strong><br />
+          Integer mauris. Cras iaculis viverra dolorqw. Nulla suscipit. Proin eu sapien ac sem fermentum sollicitudin. Quisque enim ipsum, convallis sit amet molestie in, placerat vel urna. </p>
+        <div class="clr"></div>
+        <img src="images/img_6.gif" alt="picture" width="59" height="59" />
+        <p><strong>6th / April / 2009</strong><br />
+          Integer mauris. Cras iaculis viverra dolorqw. Nulla suscipit. Proin eu sapien ac sem fermentum sollicitudin. Quisque enim ipsum, convallis sit amet molestie in, placerat vel urna. </p>
+        <div class="clr"></div>
+        <p><a href="#">more news » </a></p>
+      </div>
+      <div class="smalll">
+        <h2>Testimonials</h2>
+        <p class="test">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the. industry's” standard  text ever since rinter dummy...”</p>
+        <p><a href="#" style="float:right;">Wolter Voinsert </a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="footer_resize">
+    <div class="footer">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="portfolio.html">portfolio</a></li>
+        <li><a href="services.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="portfolio.html">rss feed</a></li>
+      </ul>
+      <p>&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
